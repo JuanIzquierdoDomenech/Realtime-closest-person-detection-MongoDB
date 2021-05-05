@@ -12,6 +12,7 @@ This project also contains code with a simple Flask app to make requests to obta
 2. Create a python environment (*e.g.* Virtualenv), activate it and install de requirements
 
 *e.g.* 
+
 `virtualenv -p python3 .venv`
 
 `source .venv/bin/activate`
@@ -21,6 +22,7 @@ This project also contains code with a simple Flask app to make requests to obta
 3. Install MongoDB on your machine and run it as a service (*e.g.* through Homebrew on macOS)
 
 *e.g.* With Homebrew
+
 `brew services start mongodb-community@4.4`
 
 4. Check that everything works by executing the `mongo` command
@@ -28,6 +30,7 @@ This project also contains code with a simple Flask app to make requests to obta
 5. Since the code in this project works with specific collections, either create them or modify the code (and create them as well)
 
 *e.g.* Inside the `mongo` environment, execute
+
 `use ssexpo`
 
 `db.data`
