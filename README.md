@@ -41,7 +41,7 @@ This project also contains code with a simple Flask app to make requests to obta
 
 These commands create the DB, the collection, inserts the document we'll be working and retrieves all documents in the collection
 
-6. Everyting installed!!
+6. Everything installed!!
 
 ## Runnig the code
 
