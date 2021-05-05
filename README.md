@@ -13,7 +13,9 @@ This project also contains code with a simple Flask app to make requests to obta
 
 *e.g.* 
 `virtualenv -p python3 .venv`
+
 `source .venv/bin/activate`
+
 `pip install -r requirements.txt`
 
 3. Install MongoDB on your machine and run it as a service (*e.g.* through Homebrew on macOS)
@@ -27,8 +29,11 @@ This project also contains code with a simple Flask app to make requests to obta
 
 *e.g.* Inside the `mongo` environment, execute
 `use ssexpo`
+
 `db.data`
+
 `db.data.insertOne({"description":"User proximity value", "value":100000})`
+
 `db.data.find()`
 
 These commands create the DB, the collection, inserts the document we'll be working and retrieves all documents in the collection
@@ -48,8 +53,8 @@ If everything works, navigating to *http://127.0.0.1:5000/closest_person* on a b
 
 3. Launch the person detection script
 
-`python detect_and_write_to_mongo.py \
-        --prototxt MobileNetSSD_deploy.prototxt.txt \
+`python detect_and_write_to_mongo.py
+        --prototxt MobileNetSSD_deploy.prototxt.txt
         --model MobileNetSSD_deploy.caffemodel`
 
 A small window should open, showing the input from your webcam
