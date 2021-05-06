@@ -41,7 +41,7 @@ This project also contains code with a simple Flask app to make requests to obta
 
 These commands create the DB, the collection, inserts the document we'll be working and retrieves all documents in the collection
 
-6. Everything installed!!
+6. Everything ready!!
 
 ## Runnig the code
 
@@ -60,7 +60,7 @@ If everything works, navigating to *http://127.0.0.1:5000/closest_person* on a b
         --prototxt MobileNetSSD_deploy.prototxt.txt
         --model MobileNetSSD_deploy.caffemodel`</s>
 
-<s>A small window should open, showing the input from your webcam<s>
+<s>A small window should open, showing the input from your webcam</s>
 
 3. To validate that everything works, you can either refresh the web browser or perform commands through the `mongo` terminal
 
