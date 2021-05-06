@@ -54,6 +54,8 @@ In this project, there are two separated parts, the person-detection part and th
 
 If everything works, navigating to *http://127.0.0.1:5000/closest_person* on a browser should give you a numeric value (the value stored in MongoDB)
 
+**Note for Windows users**: Take into account that it might be neccessary to change the Python executable in `flask_server.py` to the one used in the virtual environment (*e.g.* `.venv\Scripts\python`)
+
 <s>3. Launch the person detection script</s>
 
 <s>`python detect_and_write_to_mongo.py
