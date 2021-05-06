@@ -47,22 +47,22 @@ These commands create the DB, the collection, inserts the document we'll be work
 
 In this project, there are two separated parts, the person-detection part and the Flask part, so the steps I follow to 'run' the application are the following:
 
-1. Make sure MongoDB is running as a service
-2. Launch the flask server
+1. Make sure MongoDB is running as a service (*e.g.* `brew services list` to check)
+2. Launch the flask server (this will also launch the recognition process/window)
 
 `python flask_server.py`
 
 If everything works, navigating to *http://127.0.0.1:5000/closest_person* on a browser should give you a numeric value (the value stored in MongoDB)
 
-3. Launch the person detection script
+<s>3. Launch the person detection script</s>
 
-`python detect_and_write_to_mongo.py
+<s>`python detect_and_write_to_mongo.py
         --prototxt MobileNetSSD_deploy.prototxt.txt
-        --model MobileNetSSD_deploy.caffemodel`
+        --model MobileNetSSD_deploy.caffemodel`</s>
 
-A small window should open, showing the input from your webcam
+<s>A small window should open, showing the input from your webcam<s>
 
-4. To validate that everything works, you can either refresh the web browser or perform commands through the `mongo` terminal
+3. To validate that everything works, you can either refresh the web browser or perform commands through the `mongo` terminal
 
 ## Demo
 
